@@ -1,0 +1,276 @@
+/* Fonts: 
+    font-family: 'Cinzel', serif;
+
+    font-family: 'Volkhov', serif;
+ */
+
+body{
+    margin:0px;
+}
+
+/* Begin Nav */
+.navbar{
+    height:200px;
+    width:100%;
+    background-color: rgb(0, 48, 1);
+    overflow:hidden;
+}
+.logo{
+    height:125px;
+    width:125px;
+    background-color: white;
+    border:5px solid rgb(209, 143, 19);
+    border-radius:100px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+.logo-img{
+    height:100px;
+    width:100px;
+    position:absolute;
+    top: 15px;
+    left: 15px;
+}
+.title-text{
+    text-align:center;
+    letter-spacing: 5px;
+    word-spacing: 150%;
+    font-size: 30pt;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    position:absolute;
+    left:30%;
+    top:30px;
+    display:inline-block;
+    padding:5px;
+    color:white;
+    text-shadow:
+    2px 0 0 black,
+    -2px 0 0 black,
+    0 2px 0 black,
+    0 -2px 0 black,
+    -1px -1px 0 rgb(0, 0, 0),  
+    1px -1px 0 rgb(0, 0, 0),
+    -1px 1px 0 rgb(0, 0, 0),
+    1px 1px 0 rgb(0, 0, 0);
+}
+.navbox{
+    width:25%;
+    position:absolute;
+    left:75%;
+    top:28.5px;
+    display:inline-block;
+}
+.pgli{
+    list-style-type: none;
+    font-family: 'Volkhov', serif;
+    letter-spacing: 1px;
+    float: right;
+    padding: 20px;
+    margin-right:20px;
+    margin-top:20px;
+    text-shadow:
+    2px 0 0 black,
+    -2px 0 0 black,
+    0 2px 0 black,
+    0 -2px 0 black,
+    -1px -1px 0 rgb(0, 0, 0),  
+    1px -1px 0 rgb(0, 0, 0),
+    -1px 1px 0 rgb(0, 0, 0),
+    1px 1px 0 rgb(0, 0, 0);
+}
+.navlink{
+    text-decoration: none;
+    color: white;
+}
+a.navlink:hover{
+    color: goldenrod;
+}
+a.navlink:active{
+    color:white;
+}
+/* End Nav */
+
+/* Begin Header */
+header{
+    height:350px;
+}
+.hero-img{
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("../images/treefoothills.jpg");
+    height: 100%;
+    background-position: 25% 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.saturate {-webkit-filter: saturate(1); filter: saturate(1);}
+/* End Header */
+
+/* Begin Main */
+main{
+    height:1350px;
+    background: linear-gradient(rgb(0, 48, 1),darkgreen)
+    /* or goldenrod? */
+}
+.top{
+    padding-top: 40px;
+}
+.leftcolumn{
+    height:300px;
+    width:19%;
+    display: inline-block;
+    margin: 5px;
+    margin-left: 15px;
+}
+.midcolumn{
+    height:300px;
+    width:58%;
+    display: inline-block;
+    background-color: rgb(0, 48, 1);
+    margin: 5px;
+    margin-left:6.5px;
+    margin-right:3px;
+}
+.rightcolumn{
+    height:300px;
+    width:19%;
+    display: inline-block;
+    margin: 5px;
+}
+.column-img{
+    height:295px;
+    width:98%;
+    border-radius: 200px;
+    border:6px solid white;
+    position: relative;
+}
+img.column-img:hover{
+    border:6px solid orange;
+}
+.bar{
+    height: 25%;
+    position: relative;
+}
+.bar-text {
+    text-align: center;
+    font-size: 25pt;
+    font-family: 'Volkhov', serif;
+    position: absolute;
+    top: 22.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    letter-spacing:2px;
+    color:white;
+    text-shadow:
+    2px 0 0 black,
+    -2px 0 0 black,
+    0 2px 0 black,
+    0 -2px 0 black,
+    -1px -1px 0 black,  
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+.oak{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/oak-leaves.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.buckeye{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/buckeyes.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.chap{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/chaparral.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.dpine{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/graypine.jpg");
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.info{
+    position:relative;
+    float:left;
+    padding:20px;
+    margin:0;
+    line-height: 200%;
+    font-size: 14pt;
+    
+    text-align:left;
+    text-indent:50px;
+    letter-spacing:1px;
+    word-spacing:3.5px;
+    color:whitesmoke;
+}
+.link{
+    text-decoration:none;
+}
+/* End Main */
+
+/* Begin Footer */
+footer{
+    height:200px;
+    width:100%;
+    background-color: rgb(0, 48, 1);
+}
+.row-s{
+    height:80px;
+    width:20%;
+    position:relative;
+    top:25px;
+    margin:auto;
+}
+.social{
+    height: 30px;
+    width: 30px;
+    padding: 10px;
+    display: inline-block;
+    border:3px solid white;
+    border-radius:50px;
+    margin:13px;
+}
+i{
+    color:white;
+    position:relative;
+    left:1px;
+    bottom:1px;
+}
+.row-n{
+    height:80px;
+    width:20%;
+    position:relative;
+    margin:auto;
+}
+.ftli{
+    list-style-type:none;
+    float:left;
+    padding: 10px;
+    position: relative;
+    top:15px;
+    font-family: 'Volkhov', serif;
+    letter-spacing: 1px;
+    text-shadow:
+    2px 0 0 black,
+    -2px 0 0 black,
+    0 2px 0 black,
+    0 -2px 0 black,
+    -1px -1px 0 rgb(0, 0, 0),  
+    1px -1px 0 rgb(0, 0, 0),
+    -1px 1px 0 rgb(0, 0, 0),
+    1px 1px 0 rgb(0, 0, 0);
+}
+.copywrite{
+    color: darkgreen;
+    position: relative;
+    margin:0;
+    margin-left:10px;
+} 
+/* End Footer */
